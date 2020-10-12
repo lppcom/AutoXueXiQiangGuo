@@ -12,10 +12,9 @@ https://github.com/kessil/AutoXue
 
 
 ## 免责申明
-`AutoXueXiQiangGuo`为本人`Python`学习交流的开源非营利项目，仅作为`Python`学习交流之用，使用需严格遵守开源许可协议。严禁用于商业用途，禁止使用`AutoXue`进行任何盈利活动。对一切非法使用所产生的后果，本人概不负责。
+`AutoXueXiQiangGuo`为本人`Python`学习交流的开源非营利项目，仅作为`Python`学习交流之用，使用需严格遵守开源许可协议。严禁用于商业用途，禁止使用`AutoXueXiQiangGuo`进行任何盈利活动。对一切非法使用所产生的后果，本人概不负责。
 安装：
 
-0. 如果之前添加过环境变量`ADB1.0.40`请确保删除之
 
 1. 安装`JDK`，本文使用JDK1.8
     + 在环境变量中新建`JAVA_HOME`变量，值为JDK安装路径，如`C:\Program Files\Java\jdk1.8.0_05`
@@ -26,7 +25,6 @@ https://github.com/kessil/AutoXue
     + 在环境变量中新建`ANDROID_HOME`，值为SDK安装路径，如`C:\Program Files (x86)\Android\android-sdk`
     + 在Path变量中添加项：`%ANDROID_HOME%\platform-tools` 和 `%ANDROID_HOME%\tools`
     + 打开`SDK Manager.exe` 安装对应的工具和包,根据安卓版本进行安装，**Tools**和**Build-tools**别漏
-    ![avatar](https://github.com/kessil/AutoXue/raw/dev/image-20200601204634969.png)
     
 3. 安装`Appium",推荐通过npm安装，这样可以一键自动学习，无需通过点击启动service
      appium本质是一个nodejs库所以要先安装nodejs，然后使用npm安装。
