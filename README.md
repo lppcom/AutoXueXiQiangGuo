@@ -9,12 +9,10 @@ https://github.com/kessil/AutoXue
 
 3、用户名在default.ini里配置，可以配置多用户，也可以单用户。一定要配置！！
 
-4、如果是新的模拟器第一次登录，必须提前登录用一次，把各种提示刷没了，否则app提示操作会导致程序崩溃；
-
 
 
 ## 免责申明
-`AutoXue`为本人`Python`学习交流的开源非营利项目，仅作为`Python`学习交流之用，使用需严格遵守开源许可协议。严禁用于商业用途，禁止使用`AutoXue`进行任何盈利活动。对一切非法使用所产生的后果，本人概不负责。
+`AutoXueXiQiangGuo`为本人`Python`学习交流的开源非营利项目，仅作为`Python`学习交流之用，使用需严格遵守开源许可协议。严禁用于商业用途，禁止使用`AutoXue`进行任何盈利活动。对一切非法使用所产生的后果，本人概不负责。
 安装：
 
 0. 如果之前添加过环境变量`ADB1.0.40`请确保删除之
@@ -30,17 +28,19 @@ https://github.com/kessil/AutoXue
     + 打开`SDK Manager.exe` 安装对应的工具和包,根据安卓版本进行安装，**Tools**和**Build-tools**别漏
     ![avatar](https://github.com/kessil/AutoXue/raw/dev/image-20200601204634969.png)
     
-3. 安装`Appium-desktop`，为了使用`UiAutomator2`，请将`Appium`设为以管理员权限启动，并赋予JDK和SDK所有权限
-    ![avatar](https://github.com/kessil/AutoXue/blob/dev/image-20200601204913532.png)
-    
-
+3. 安装`Appium",推荐通过npm安装，这样可以一键自动学习，无需通过点击启动service
+     appium本质是一个nodejs库所以要先安装nodejs，然后使用npm安装。
+    3.1nodejs下载地址：https://nodejs.org/zh-cn/download/
+    3.2下载zip包解压到自己想放的目录，然后把该目录加入Path环境变量即可。
+    3.3运行 npm install -g appium
+    3.4使用appinum-doctor确认环境配置无误
+        npm install -g appium-doctor
+        appium-doctor --android
+        
 4. 安装一个Android模拟器。
 
 5. 安装`Python3.8
 
 ## 使用方法(windows)
-0. 克隆项目 `git clone https://github.com/SpringCity-LaoYang/AutoXue-multiuser.git --depth 1`
-1. 双击运行`setup.cmd`
-2. 启动 `Appium` 和 `Nox`
-3. 双击运行 `start.cmd`
+双击运行xuexi.exe
 
