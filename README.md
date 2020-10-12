@@ -1,8 +1,7 @@
 # 写在最前
 项目地址来源 
 https://github.com/kessil/AutoXue  
-https://github.com/SpringCity-LaoYang/AutoXue-multiuser
-
+因原作者不再更新，仅作研究学习用，切勿用于商业用途。
 # 使用方法，一定要先读！！
 1、配置环境，参考原作者的配置教程，这点非常重要
 
